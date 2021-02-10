@@ -20,6 +20,6 @@ public class Norsk implements Dialog {
 
     @Override
     public String changeLanguage() {
-        return "Skifte språk: da / en / it / no? ";
+        return "Skifte språk: " + countryCodes();
     }
 }

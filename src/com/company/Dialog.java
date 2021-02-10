@@ -10,6 +10,8 @@ public interface Dialog {
 
     public String changeLanguage();
 
-    // find på to dialoger selv i gruppen.
+    public default String countryCodes(){
+        return "da / en / it / no? ";
+    }
 
 }

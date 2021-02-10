@@ -21,6 +21,6 @@ public class Dansk implements Dialog {
 
     @Override
     public String changeLanguage() {
-        return "Skift sprog: da / en / it / no? ";
+        return "Skift sprog: "+ countryCodes();
     }
 }

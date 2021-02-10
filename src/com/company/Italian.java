@@ -21,6 +21,6 @@ public class Italian implements Dialog{
 
     @Override
     public String changeLanguage() {
-        return "Cambia lingua: da / en / it / no? ";
+        return "Cambia lingua: "+countryCodes();
     }
 }

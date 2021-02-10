@@ -20,6 +20,6 @@ public class English implements Dialog{
 
     @Override
     public String changeLanguage() {
-        return "Change language: da / en / it / no? ";
+        return "Change language: " + Dialog.super.countryCodes();
     }
 }
