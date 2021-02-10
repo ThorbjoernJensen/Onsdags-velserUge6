@@ -10,12 +10,12 @@ public class Norsk implements Dialog {
 
     @Override
     public String quit() {
-        return "Tast q hvis du vil slutte:";
+        return "Trykk en tast, eller q hvis du vil slutte: ";
     }
 
     @Override
     public String displayLanguage() {
-        return "Du valgte sproget:";
+        return "Du valgte sproget: ";
     }
 
     @Override

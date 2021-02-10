@@ -10,12 +10,12 @@ public class English implements Dialog{
 
     @Override
     public String quit() {
-        return "presse q for quit";
+        return "press any key to continue or press q to quit: ";
     }
 
     @Override
     public String displayLanguage() {
-        return "the selected language is:";
+        return "the selected language is: ";
     }
 
     @Override

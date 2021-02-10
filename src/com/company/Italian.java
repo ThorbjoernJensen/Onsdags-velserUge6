@@ -10,12 +10,13 @@ public class Italian implements Dialog{
 
     @Override
     public String quit() {
-        return "Premere q per uscire";
+        return "\n" +
+                "premere un tasto qualsiasi o Premere q per uscire: ";
     }
 
     @Override
     public String displayLanguage() {
-        return "La lingua choocen è:";
+        return "La lingua choocen è: ";
     }
 
     @Override
