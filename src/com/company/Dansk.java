@@ -15,12 +15,12 @@ public class Dansk implements Dialog {
     }
 
     @Override
-    public String selectedLanguage() {
+    public String displayLanguage() {
         return "det valgte sprog er:";
     }
 
     @Override
     public String changeLanguage() {
-        return "Skift sprog:";
+        return "Skift sprog: da / en / it / no? ";
     }
 }

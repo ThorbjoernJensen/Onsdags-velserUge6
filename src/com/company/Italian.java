@@ -14,12 +14,12 @@ public class Italian implements Dialog{
     }
 
     @Override
-    public String selectedLanguage() {
+    public String displayLanguage() {
         return "La lingua choocen è:";
     }
 
     @Override
     public String changeLanguage() {
-        return "Cambia lingua:";
+        return "Cambia lingua: da / en / it / no? ";
     }
 }

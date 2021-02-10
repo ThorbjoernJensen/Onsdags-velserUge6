@@ -6,7 +6,7 @@ public interface Dialog {
 
     public String quit();
 
-    public String selectedLanguage();
+    public String displayLanguage();
 
     public String changeLanguage();
 

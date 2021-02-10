@@ -14,12 +14,12 @@ public class English implements Dialog{
     }
 
     @Override
-    public String selectedLanguage() {
+    public String displayLanguage() {
         return "the selected language is:";
     }
 
     @Override
     public String changeLanguage() {
-        return "Change language:";
+        return "Change language: da / en / it / no? ";
     }
 }

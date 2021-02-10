@@ -14,12 +14,12 @@ public class Norsk implements Dialog {
     }
 
     @Override
-    public String selectedLanguage() {
+    public String displayLanguage() {
         return "Du valgte sproget:";
     }
 
     @Override
     public String changeLanguage() {
-        return "Skifte språk:";
+        return "Skifte språk: da / en / it / no? ";
     }
 }
