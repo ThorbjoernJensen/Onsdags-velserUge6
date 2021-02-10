@@ -5,29 +5,27 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
-        Dialog dialog = new English();
+        Dialog dialog;
 
         Sprog sprog = new Sprog();
 
-        dialog = sprog.SkiftSprog(getString("Hvilket sprog vil du vælge: da / eng / it / no? "));
+        dialog = sprog.SkiftSprog(getString("Hvilket sprog vil du vælge: da / en / it / no? "));
 
-        System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
+        System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage()+"test");
 
-
-//        while (!   getString(dialog.quit() ).equalsIgnoreCase("q") )
-//        {
-
-
-            if(getString("change language ?").equalsIgnoreCase("y")) {
-
-                dialog = sprog.SkiftSprog(getString("da / eng / it / no"));
-
+        boolean running = true;
+        while (running) {
+            if (getString("").equals("q")) {
+                running = false;
+            } else {
+                dialog = sprog.SkiftSprog(getString("Hvilket sprog vil du vælge: da / en / it / no? "));
+                System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
+                System.out.println(dialog.quit());
             }
-            System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
 
-//        }
+        }
 
 
     }
@@ -36,7 +34,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print(s + " : ");
+        System.out.print(s);
 
         return scanner.nextLine();
 

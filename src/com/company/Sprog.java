@@ -8,10 +8,9 @@ public class Sprog  {
 
     public Sprog() {
 
-
         // her tilføjer du ny sprog
         dialoger.put("da", new Dansk());
-        dialoger.put("eng", new English());
+        dialoger.put("en", new English());
         dialoger.put("no", new Norsk());
         dialoger.put("it", new Italian());
 

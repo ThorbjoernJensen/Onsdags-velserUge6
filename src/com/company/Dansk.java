@@ -11,11 +11,16 @@ public class Dansk implements Dialog {
 
     @Override
     public String quit() {
-        return "tryk q for at stoppe ";
+        return "tryk q for at stoppe:";
     }
 
     @Override
     public String selectedLanguage() {
-        return "det valgte sprog er ";
+        return "det valgte sprog er:";
+    }
+
+    @Override
+    public String changeLanguage() {
+        return "Skift sprog:";
     }
 }

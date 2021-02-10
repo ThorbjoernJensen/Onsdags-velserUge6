@@ -15,6 +15,11 @@ public class Italian implements Dialog{
 
     @Override
     public String selectedLanguage() {
-        return "La lingua choocen è ";
+        return "La lingua choocen è:";
+    }
+
+    @Override
+    public String changeLanguage() {
+        return "Cambia lingua:";
     }
 }
