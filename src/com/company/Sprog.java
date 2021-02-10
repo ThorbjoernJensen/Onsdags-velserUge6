@@ -12,6 +12,7 @@ public class Sprog  {
         // her tilføjer du ny sprog
         dialoger.put("da", new Dansk());
         dialoger.put("eng", new English());
+        dialoger.put("it", new Italian());
 
     }
     public Dialog SkiftSprog(String s) {
