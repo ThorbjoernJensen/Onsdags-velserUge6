@@ -2,7 +2,7 @@ package com.company;
 
 public class Dansk implements Dialog {
 
-    private String s = "danish";
+    private String s = "dansk";
 
     @Override
     public String getLanguage() {

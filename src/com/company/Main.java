@@ -11,7 +11,13 @@ public class Main {
 
         Sprog sprog = new Sprog();
 
-        while (!   getString(dialog.quit() ).equalsIgnoreCase("q") )  {
+        dialog = sprog.SkiftSprog(getString("Hvilket sprog vil du vælge: da / eng / it / no? "));
+
+        System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
+
+
+//        while (!   getString(dialog.quit() ).equalsIgnoreCase("q") )
+//        {
 
 
             if(getString("change language ?").equalsIgnoreCase("y")) {
@@ -21,7 +27,7 @@ public class Main {
             }
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
 
-        }
+//        }
 
 
     }
