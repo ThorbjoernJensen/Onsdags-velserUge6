@@ -1,11 +1,11 @@
 package com.company;
 
 public class Norsk implements Dialog {
-    private String s;
+    private String s = "Norsk";
 
     @Override
     public String getLanguage() {
-        return null;
+        return s;
     }
 
     @Override
@@ -15,6 +15,6 @@ public class Norsk implements Dialog {
 
     @Override
     public String selectedLanguage() {
-        return "Du valgte det Norske sprog";
+        return "Du valgte sproget";
     }
 }
